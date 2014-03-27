@@ -1,0 +1,13 @@
+name: scoryst
+private_key_path: ./scoryst.pem
+
+files:
+  - files/*
+
+scripts:
+  - scripts/security.sh
+  - scripts/nginx.sh
+  - scripts/daemons.sh
+  - scripts/scoryst.sh
+  - scripts/postfix.sh
+  - scripts/kickstart.sh

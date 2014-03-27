@@ -1,0 +1,10 @@
+security_groups: basic
+size: t1.micro
+image: ami-9c91acd9
+availability_zone: us-west-1c
+key_name: scoryst
+region: us-west-1
+
+cloud:
+  provider: AWS
+  region: us-west-1

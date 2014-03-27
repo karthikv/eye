@@ -1,0 +1,11 @@
+files:
+  aws-key: scoryst.pem
+  deploy-key: files-templates/scoryst/deploy-key/id_rsa
+  deploy-password: files-templates/security/deploy-password
+  scoryst.com.crt: files-templates/nginx/ssl/scoryst.com.crt
+  scoryst.com.csr: files-templates/nginx/ssl/scoryst.com.csr
+  scoryst.com.key: files-templates/nginx/ssl/scoryst.com.key
+  cacert.pem: files-templates/postfix/ssl/cacert.pem
+  cakey.pem: files-templates/postfix/ssl/cakey.pem
+  smtpd.crt: files-templates/postfix/ssl/smtpd.crt
+  local-settings: files-templates/scoryst/django/local_settings.py

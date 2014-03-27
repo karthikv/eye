@@ -1,0 +1,17 @@
+# general files to ignore
+.DS_Store
+.Python
+venv/
+*.sw[pon]
+env.sh
+node_modules/
+
+# sensitive files
+scoryst.pem
+files/
+scripts/
+files-templates/nginx/ssl/
+files-templates/scoryst/deploy-key/id_rsa
+files-templates/postfix/ssl/
+files-templates/security/deploy-password
+files-templates/scoryst/django/local_settings.py
